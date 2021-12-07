@@ -13,7 +13,7 @@ CREATE TABLE Counts (org TEXT, count INTEGER)''')
 
 fname = input('Enter file name: ')
 if (len(fname) < 1):
-    fname = 'G:\HocTap\Code Python\mbox-short.txt'
+    fname = 'Cousera\mbox-short.txt'
 fh = open(fname)
 for line in fh:
     if not line.startswith('From: '):
